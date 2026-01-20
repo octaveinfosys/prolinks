@@ -5,6 +5,11 @@
 include './headerLink.php';
 ?>
 
+<!-- Preload critical images -->
+<link rel="preload" as="image" href="./assets/img/prolinks/slider/slider_network.webp">
+<link rel="preload" as="image" href="./assets/img/prolinks/slider/slider_security.webp">
+<link rel="preload" as="image" href="./assets/img/prolinks/slider/slider_server.webp">
+
 <body
     class="home page-template page-template-elementor_header_footer page page-id-1426 wp-embed-responsive theme-electrician/electrician woocommerce-no-js index elementor-default elementor-template-full-width elementor-kit-2538 elementor-page elementor-page-1426">
     <?php
@@ -39,7 +44,7 @@ include './headerLink.php';
                                             <div id="js-mainSlider" class="mainSlider">
                                                 <div class="slide">
                                                     <div class="img--holder"
-                                                        data-bgslide="./assets/img/prolinks/slider/slider_network.png"></div>
+                                                        data-bgslide="./assets/img/prolinks/slider/slider_network.webp"></div>
                                                     <div class="slide-content">
                                                         <div class="slide-overlay"></div>
                                                         <div class="container text-center js-rotation"
@@ -52,7 +57,7 @@ include './headerLink.php';
                                                 </div>
                                                 <div class="slide">
                                                     <div class="img--holder"
-                                                        data-bgslide="./assets/img/prolinks/slider/slider_security.png"></div>
+                                                        data-bgslide="./assets/img/prolinks/slider/slider_security.webp"></div>
                                                     <div class="slide-content">
                                                         <div class="slide-overlay"></div>
                                                         <div class="container text-center js-rotation"
@@ -67,7 +72,7 @@ include './headerLink.php';
                                                 </div>
                                                 <div class="slide">
                                                     <div class="img--holder"
-                                                        data-bgslide="./assets/img/prolinks/slider/slider_server.png"></div>
+                                                        data-bgslide="./assets/img/prolinks/slider/slider_server.webp"></div>
                                                     <div class="slide-content">
                                                         <div class="slide-overlay"></div>
                                                         <div class="container text-center js-rotation"
@@ -193,7 +198,7 @@ include './headerLink.php';
                                                     data-widget_type="image.default">
                                                     <div class="elementor-widget-container">
                                                         <img width="910" height="600"
-                                                            src="./assets/img/prolinks/about_office.png"
+                                                            src="./assets/img/prolinks/about_office.webp"
                                                             class="attachment-full size-full" alt="" loading="lazy" />
                                                     </div>
                                                 </div>
@@ -277,14 +282,14 @@ include './headerLink.php';
                                                         <div class="tt-img-main">
                                                             <img width="913" height="420"
                                                                 src="wp-content/uploads/2021/07/about1.png"
-                                                                class="attachment-full size-full" alt="" loading="lazy"
+                                                                class="attachment-full size-full" alt=""
                                                                 srcset="https://mantechintellisys.com/wp-content/uploads/2021/07/about1.png 913w, https://mantechintellisys.com/wp-content/uploads/2021/07/about1-300x138.png 300w, https://mantechintellisys.com/wp-content/uploads/2021/07/about1-768x353.png 768w, https://mantechintellisys.com/wp-content/uploads/2021/07/about1-847x390.png 847w, https://mantechintellisys.com/wp-content/uploads/2021/07/about1-600x276.png 600w"
                                                                 sizes="(max-width: 913px) 100vw, 913px" />
                                                         </div>
                                                         <div class="tt-img-more left-bottom">
                                                             <img width="910" height="600"
                                                                 src="wp-content/uploads/2021/07/about2.png"
-                                                                class="attachment-full size-full" alt="" loading="lazy"
+                                                                class="attachment-full size-full" alt=""
                                                                 srcset="https://mantechintellisys.com/wp-content/uploads/2021/07/about2.png 910w, https://mantechintellisys.com/wp-content/uploads/2021/07/about2-300x198.png 300w, https://mantechintellisys.com/wp-content/uploads/2021/07/about2-768x506.png 768w, https://mantechintellisys.com/wp-content/uploads/2021/07/about2-745x491.png 745w, https://mantechintellisys.com/wp-content/uploads/2021/07/about2-600x396.png 600w"
                                                                 sizes="(max-width: 910px) 100vw, 910px" />
                                                         </div>
@@ -359,7 +364,7 @@ include './headerLink.php';
                                                                         width="1274" height="850"
                                                                         src="wp-content/uploads/2020/07/slideinfo-01.jpg"
                                                                         class="attachment-full size-full" alt=""
-                                                                        loading="lazy"
+                                                                       
                                                                         srcset="https://mantechintellisys.com/wp-content/uploads/2020/07/slideinfo-01.jpg 1274w, https://mantechintellisys.com/wp-content/uploads/2020/07/slideinfo-01-600x400.jpg 600w, https://mantechintellisys.com/wp-content/uploads/2020/07/slideinfo-01-300x200.jpg 300w, https://mantechintellisys.com/wp-content/uploads/2020/07/slideinfo-01-1024x683.jpg 1024w, https://mantechintellisys.com/wp-content/uploads/2020/07/slideinfo-01-768x512.jpg 768w, https://mantechintellisys.com/wp-content/uploads/2020/07/slideinfo-01-736x491.jpg 736w"
                                                                         sizes="(max-width: 1274px) 100vw, 1274px" /></a>
                                                             </figure>
@@ -390,7 +395,7 @@ include './headerLink.php';
                                                                         width="640" height="428"
                                                                         src="wp-content/uploads/2021/08/pharma.jpg"
                                                                         class="attachment-large size-large" alt=""
-                                                                        loading="lazy"
+                                                                       
                                                                         srcset="https://mantechintellisys.com/wp-content/uploads/2021/08/pharma.jpg 1000w, https://mantechintellisys.com/wp-content/uploads/2021/08/pharma-300x200.jpg 300w, https://mantechintellisys.com/wp-content/uploads/2021/08/pharma-768x513.jpg 768w, https://mantechintellisys.com/wp-content/uploads/2021/08/pharma-735x491.jpg 735w, https://mantechintellisys.com/wp-content/uploads/2021/08/pharma-600x401.jpg 600w"
                                                                         sizes="(max-width: 640px) 100vw, 640px" /></a>
                                                             </figure>
@@ -421,7 +426,7 @@ include './headerLink.php';
                                                                         width="907" height="578"
                                                                         src="wp-content/uploads/2021/07/datacenter.png"
                                                                         class="attachment-full size-full" alt=""
-                                                                        loading="lazy"
+                                                                       
                                                                         srcset="https://mantechintellisys.com/wp-content/uploads/2021/07/datacenter.png 907w, https://mantechintellisys.com/wp-content/uploads/2021/07/datacenter-300x191.png 300w, https://mantechintellisys.com/wp-content/uploads/2021/07/datacenter-768x489.png 768w, https://mantechintellisys.com/wp-content/uploads/2021/07/datacenter-770x491.png 770w, https://mantechintellisys.com/wp-content/uploads/2021/07/datacenter-600x382.png 600w"
                                                                         sizes="(max-width: 907px) 100vw, 907px" /></a>
                                                             </figure>
@@ -451,7 +456,7 @@ include './headerLink.php';
                                                                         width="1274" height="850"
                                                                         src="wp-content/uploads/2020/07/slideinfo-02.jpg"
                                                                         class="attachment-full size-full" alt=""
-                                                                        loading="lazy"
+                                                                       
                                                                         srcset="https://mantechintellisys.com/wp-content/uploads/2020/07/slideinfo-02.jpg 1274w, https://mantechintellisys.com/wp-content/uploads/2020/07/slideinfo-02-600x400.jpg 600w, https://mantechintellisys.com/wp-content/uploads/2020/07/slideinfo-02-300x200.jpg 300w, https://mantechintellisys.com/wp-content/uploads/2020/07/slideinfo-02-1024x683.jpg 1024w, https://mantechintellisys.com/wp-content/uploads/2020/07/slideinfo-02-768x512.jpg 768w, https://mantechintellisys.com/wp-content/uploads/2020/07/slideinfo-02-736x491.jpg 736w"
                                                                         sizes="(max-width: 1274px) 100vw, 1274px" /></a>
                                                             </figure>
@@ -492,7 +497,7 @@ include './headerLink.php';
 
                                                 <div class="tt-slideinfo">
                                                     <div class="tt-item__bg">
-                                                        <div data-bg="./assets/img/prolinks/slide-info/1.jpg"
+                                                        <div data-bg="./assets/img/prolinks/slide-info/1.webp"
                                                             class="lazyload tt-item__bg-img"></div>
                                                         <div class="tt-item__bg-top"></div>
                                                     </div>
@@ -514,7 +519,7 @@ include './headerLink.php';
 
                                                 <div class="tt-slideinfo">
                                                     <div class="tt-item__bg">
-                                                        <div data-bg="./assets/img/prolinks/slide-info/2.jpg"
+                                                        <div data-bg="./assets/img/prolinks/slide-info/2.webp"
                                                             class="lazyload tt-item__bg-img"></div>
                                                         <div class="tt-item__bg-top"></div>
                                                     </div>
@@ -537,7 +542,7 @@ include './headerLink.php';
 
                                                 <div class="tt-slideinfo">
                                                     <div class="tt-item__bg">
-                                                        <div data-bg="./assets/img/prolinks/slide-info/3.jpg"
+                                                        <div data-bg="./assets/img/prolinks/slide-info/3.webp"
                                                             class="lazyload tt-item__bg-img"></div>
                                                         <div class="tt-item__bg-top"></div>
                                                     </div>
@@ -559,7 +564,7 @@ include './headerLink.php';
 
                                                 <div class="tt-slideinfo">
                                                     <div class="tt-item__bg">
-                                                        <div data-bg="./assets/img/prolinks/slide-info/4.jpg"
+                                                        <div data-bg="./assets/img/prolinks/slide-info/4.webp"
                                                             class="lazyload tt-item__bg-img"></div>
                                                         <div class="tt-item__bg-top"></div>
                                                     </div>
@@ -637,8 +642,8 @@ include './headerLink.php';
                                                             <a href="#" class="tt-box02__img ">
                                                                 <div class="tt-bg-dark">
                                                                     <img width="911" height="602"
-                                                                        src="assets/img/prolinks/service/1.jpg"
-                                                                        class="tt-img-main" alt="" loading="lazy" />
+                                                                        src="assets/img/prolinks/service/1.webp"
+                                                                        class="tt-img-main" alt="" />
                                                                 </div>
                                                             </a>
                                                             <h6 class="tt-box02__title"><a href="#">NETWORK
@@ -656,8 +661,8 @@ include './headerLink.php';
                                                             <a href="#" class="tt-box02__img ">
                                                                 <div class="tt-bg-dark">
                                                                     <img width="692" height="458"
-                                                                        src="assets/img/prolinks/service/2.jpg"
-                                                                        class="tt-img-main" alt="" loading="lazy" />
+                                                                        src="assets/img/prolinks/service/2.webp"
+                                                                        class="tt-img-main" alt="" />
                                                                 </div>
                                                             </a>
                                                             <h6 class="tt-box02__title"><a href="#">CYBER SECURITY</a>
@@ -675,8 +680,8 @@ include './headerLink.php';
                                                             <a href="#" class="tt-box02__img ">
                                                                 <div class="tt-bg-dark">
                                                                     <img width="906" height="544"
-                                                                        src="assets/img/prolinks/service/3.jpg"
-                                                                        class="tt-img-main" alt="" loading="lazy" />
+                                                                        src="assets/img/prolinks/service/3.webp"
+                                                                        class="tt-img-main" alt="" />
                                                                 </div>
                                                             </a>
                                                             <h6 class="tt-box02__title"><a href="#">SERVER & STORAGE</a>
@@ -694,8 +699,8 @@ include './headerLink.php';
                                                             <a href="#" class="tt-box02__img ">
                                                                 <div class="tt-bg-dark">
                                                                     <img width="900" height="504"
-                                                                        src="assets/img/prolinks/service/4.jpg"
-                                                                        class="tt-img-main" alt="" loading="lazy" />
+                                                                        src="assets/img/prolinks/service/4.webp"
+                                                                        class="tt-img-main" alt="" />
                                                                 </div>
                                                             </a>
                                                             <h6 class="tt-box02__title"><a href="#">PHYSICAL
@@ -713,8 +718,8 @@ include './headerLink.php';
                                                             <a href="#" class="tt-box02__img ">
                                                                 <div class="tt-bg-dark">
                                                                     <img width="142" height="175"
-                                                                        src="assets/img/prolinks/service/5.jpg"
-                                                                        class="tt-img-main" alt="" loading="lazy" />
+                                                                        src="assets/img/prolinks/service/5.webp"
+                                                                        class="tt-img-main" alt="" />
                                                                 </div>
                                                             </a>
                                                             <h6 class="tt-box02__title"><a href="#">IT MANAGED SERVICES
@@ -732,8 +737,8 @@ include './headerLink.php';
                                                             <a href="#" class="tt-box02__img ">
                                                                 <div class="tt-bg-dark">
                                                                     <img width="142" height="175"
-                                                                        src="assets/img/prolinks/service/6.jpg"
-                                                                        class="tt-img-main" alt="" loading="lazy" />
+                                                                        src="assets/img/prolinks/service/6.webp"
+                                                                        class="tt-img-main" alt="" />
                                                                 </div>
                                                             </a>
                                                             <h6 class="tt-box02__title"><a href="#">IT INFRA MANAGEMENT SOFTWARE
@@ -912,7 +917,7 @@ include './headerLink.php';
                                                             <div class="tt-title">
                                                                 <img width="125" height="125"
                                                                     src="wp-content/uploads/2020/07/bg_marker.png"
-                                                                    class="bg-marker" alt="" loading="lazy"
+                                                                    class="bg-marker" alt=""
                                                                     srcset="https://mantechintellisys.com/wp-content/uploads/2020/07/bg_marker.png 125w, https://mantechintellisys.com/wp-content/uploads/2020/07/bg_marker-100x100.png 100w"
                                                                     sizes="(max-width: 125px) 100vw, 125px" />
                                                                 <div class="tt-title__01">Our Statistics</div>
@@ -981,8 +986,8 @@ include './headerLink.php';
                                                                         <div class="tt-item__img">
                                                                             <img width="400" height="400"
                                                                                 src="./assets/img/prolinks/profile/1.jpg"
-                                                                                class="attachment-full size-full" alt=""
-                                                                                loading="lazy" />
+                                                                                class="attachment-full size-full" alt="" loading="lazy"
+                                                                                />
                                                                         </div>
                                                                         <div class="tt-item__title">
                                                                             <div class="section-title text-left">
@@ -1015,8 +1020,8 @@ include './headerLink.php';
                                                                         <div class="tt-item__img">
                                                                             <img width="400" height="400"
                                                                                 src="./assets/img/prolinks/profile/2.jpg"
-                                                                                class="attachment-full size-full" alt=""
-                                                                                loading="lazy" />
+                                                                                class="attachment-full size-full" alt="" loading="lazy"
+                                                                                />
                                                                         </div>
                                                                         <div class="tt-item__title">
                                                                             <div class="section-title text-left">
@@ -1152,7 +1157,7 @@ include './headerLink.php';
                                                             <h4 class="section-title__02">News & Update</h4>
                                                             <img width="125" height="125"
                                                                 src="wp-content/uploads/2020/07/bg_marker02.png"
-                                                                class="bg-marker01" alt="" loading="lazy"
+                                                                class="bg-marker01" alt=""
                                                                 srcset="https://mantechintellisys.com/wp-content/uploads/2020/07/bg_marker02.png 125w, https://mantechintellisys.com/wp-content/uploads/2020/07/bg_marker02-100x100.png 100w"
                                                                 sizes="(max-width: 125px) 100vw, 125px" />
                                                         </div>
@@ -1208,7 +1213,7 @@ include './headerLink.php';
                                                                             height="280"
                                                                             src="wp-content/uploads/2016/11/blog_img03-370x280.jpg"
                                                                             class="attachment-electrician-post-grid size-electrician-post-grid"
-                                                                            alt="" loading="lazy"
+                                                                            alt=""
                                                                             srcset="https://mantechintellisys.com/wp-content/uploads/2016/11/blog_img03-370x280.jpg 370w, https://mantechintellisys.com/wp-content/uploads/2016/11/blog_img03-333x252.jpg 333w"
                                                                             sizes="(max-width: 370px) 100vw, 370px" />
                                                                     </div>

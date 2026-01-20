@@ -52,7 +52,7 @@
                         <div id="custom_html-3" class="widget_text footer-widget3  widget_custom_html">
                             <div class="textwidget custom-html-widget"><iframe
                                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.8944447!2d72.9391806!3d19.1582851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b86e528cb077%3A0x1569e823178bd286!2sProlink%20Computers%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1642678901234!5m2!1sen!2sin"
-                                    width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                    width="100%" height="250" style="border:0;" allowfullscreen=""></iframe>
                             </div>
                         </div>
                     </div>

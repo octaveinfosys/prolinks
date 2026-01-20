@@ -121,3 +121,42 @@
   id='elementor-frontend-js'></script>
 <script type='text/javascript' src='wp-content/plugins/elementor/assets/js/preloaded-modules.mine1e3.js?ver=3.2.4'
   id='preloaded-modules-js'></script>
+
+<!-- Image optimization script -->
+<script>
+// Simple lazy loading for images without loading attribute
+document.addEventListener('DOMContentLoaded', function() {
+    const images = document.querySelectorAll('img:not([loading])');
+    
+    if ('IntersectionObserver' in window) {
+        const imageObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const img = entry.target;
+                    if (img.dataset.src) {
+                        img.src = img.dataset.src;
+                        img.classList.remove('lazyload');
+                        img.classList.add('lazyloaded');
+                    }
+                    observer.unobserve(img);
+                }
+            });
+        });
+        
+        images.forEach(img => imageObserver.observe(img));
+    }
+    
+    // Preload next images when slider changes
+    const sliders = document.querySelectorAll('.slick-slider');
+    sliders.forEach(slider => {
+        slider.addEventListener('afterChange', function() {
+            const nextImages = slider.querySelectorAll('.slick-active + .slick-slide img, .slick-active img');
+            nextImages.forEach(img => {
+                if (img.dataset.src && !img.src) {
+                    img.src = img.dataset.src;
+                }
+            });
+        });
+    });
+});
+</script>

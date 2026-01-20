@@ -180,3 +180,6 @@
 .icon-eye:before {
   content: "\e9ce";
 }
+.icon-envelope:before {
+  content: "\2709";
+}

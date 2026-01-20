@@ -1,210 +1,376 @@
-#okapi-wasb-button{
+#okapi-wasb-button {
     position: fixed;
     z-index: 9999999;
 }
-#okapi-wasb-button{
+
+#okapi-wasb-button {
     bottom: 15px;
     left: 15px;
 }
-#okapi-wasb-icon{
+
+#okapi-wasb-icon {
     opacity: 0.95;
     width: 60px;
     height: 60px;
 }
-#okapi-wasb-icon:hover{
+
+#okapi-wasb-icon:hover {
     opacity: 1;
 }
 
 
 
-.wpcf7 form.sent .wpcf7-response-output{
-    color:#fff
+.wpcf7 form.sent .wpcf7-response-output {
+    color: #fff
 }
-#tt-nav>ul>li>a{
-    padding:4px 14px 4px !important
+
+#tt-nav>ul>li>a {
+    padding: 4px 14px 4px !important
 }
-@media (min-width: 1025px){
+
+@media (min-width: 1025px) {
     #tt-nav>ul>li ul {
         width: 300px
     }
+
     #tt-nav>ul>li ul li a {
-        padding:7px 23px
+        padding: 7px 23px
     }
 }
 
-.holder-top-desktop{
-    display:none !important
+.holder-top-desktop {
+    display: none !important
 }
-#tt-nav>ul>li>a{
-    font-size:15px
+
+#tt-nav>ul>li>a {
+    font-size: 15px
 }
-.section-indent:not(.no-margin){
-    margin-top:20px
+
+.section-indent:not(.no-margin) {
+    margin-top: 20px
 }
-.tt-box02 .tt-box02__img img{
-    width:100%;
-    height:100%;
-    max-width:100%
+
+.tt-box02 .tt-box02__img img {
+    width: 100%;
+    height: 100%;
+    max-width: 100%
 }
-.tt-box02 .tt-box02__img img{
-    width:100%;
-    height:280px;
-    max-width:100%
+
+.tt-box02 .tt-box02__img img {
+    width: 100%;
+    height: 280px;
+    max-width: 100%
 }
-.tt-bg-dark{
-    width:100%;
-    height:280px;
-    max-width:100% !important
+
+.tt-bg-dark {
+    width: 100%;
+    height: 280px;
+    max-width: 100% !important
 }
-.tt-box02 .tt-box02__img{
-    margin-bottom:25px
+
+.tt-box02 .tt-box02__img {
+    margin-bottom: 25px
 }
 
 .elementor-swiper-button-next {
     right: -32px;
 }
+
 .elementor-swiper-button-prev {
     left: -32px;
 }
 
-.float{
-    position:fixed;
-    width:55px;
-    height:55px;
-    bottom:180px;
-    right:0px;
-    background-color:#25d366;
-    color:#FFF;
-    border-radius:50px;
-    text-align:center;
-    font-size:30px;
+.float {
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    bottom: 180px;
+    right: 0px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
     box-shadow: 2px 2px 3px #999;
-    z-index:100;
+    z-index: 100;
 }
 
-.my-float{
-    margin-top:16px;
+.my-float {
+    margin-top: 16px;
 }
+
 .um-form input[type=number] {
     width: 100%;
-    height:40px !important
+    height: 40px !important
 }
+
 .tt-col-logo img {
     width: 200px;
 }
+
 #tt-nav>ul>li>a {
     font-size: 14px;
 }
-@media (min-width: 1230px){
+
+@media (min-width: 1230px) {
     #js-init-sticky .container {
         max-width: 1300px;
     }
 }
-@media (min-width: 1025px){
+
+@media (min-width: 1025px) {
     .mainSlider .slide .slide-content .tt-title-02 {
-        font-size:34px
+        font-size: 34px
     }
 }
+
 a.tt-obj__btn.cart-contents {
     display: none;
 }
-.section-title .section-title__02{
-    font-size:21px
+
+.section-title .section-title__02 {
+    font-size: 21px
 }
-.tt-slideinfo .tt-item__title span{
+
+.tt-slideinfo .tt-item__title span {
     font-size: 25px;
-}	
-
-
-
-
-
-.holder-top-desktop{
-    display:none !important;
 }
 
-#tt-nav > ul > li > a{
-    font-size:14px;
+
+
+
+
+.holder-top-desktop {
+    display: none !important;
 }
 
-.section-indent:not(.no-margin){
-    margin-top:20px;
+#tt-nav>ul>li>a {
+    font-size: 14px;
 }
 
-.tt-box02 .tt-box02__img img{
-    width:100%;
-    height:280px;
-    max-width:100%;
+.section-indent:not(.no-margin) {
+    margin-top: 20px;
 }
 
-.tt-bg-dark{
-    width:100%;
-    height:280px;
-    max-width:100% !important;
+.tt-box02 .tt-box02__img img {
+    width: 100%;
+    height: 280px;
+    max-width: 100%;
 }
 
-.tt-box02 .tt-box02__img{
-    margin-bottom:25px;
+.tt-bg-dark {
+    width: 100%;
+    height: 280px;
+    max-width: 100% !important;
 }
 
-.elementor-swiper-button-next{
-    right:-32px;
+.tt-box02 .tt-box02__img {
+    margin-bottom: 25px;
 }
 
-.elementor-swiper-button-prev{
-    left:-32px;
+.elementor-swiper-button-next {
+    right: -32px;
 }
 
-.float{
-    position:fixed;
-    width:55px;
-    height:55px;
-    bottom:180px;
-    right:0;
-    background-color:#25d366;
-    color:#fff;
-    border-radius:50px;
-    text-align:center;
-    font-size:30px;
-    box-shadow:2px 2px 3px #999;
-    z-index:100;
+.elementor-swiper-button-prev {
+    left: -32px;
 }
 
-.my-float{
-    margin-top:16px;
+.float {
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    bottom: 180px;
+    right: 0;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
 }
 
-.um-form input[type=number]{
-    width:100%;
-    height:40px !important;
+.my-float {
+    margin-top: 16px;
 }
 
-.tt-col-logo img{
-    width:200px;
+.um-form input[type=number] {
+    width: 100%;
+    height: 40px !important;
 }
 
-a.tt-obj__btn.cart-contents{
-    display:none;
+.tt-col-logo img {
+    width: 200px;
 }
 
-.section-title .section-title__02{
-    font-size:21px;
+a.tt-obj__btn.cart-contents {
+    display: none;
 }
 
-.tt-slideinfo .tt-item__title span{
-    font-size:25px;
+.section-title .section-title__02 {
+    font-size: 21px;
+}
+
+.tt-slideinfo .tt-item__title span {
+    font-size: 25px;
 }
 
 /* Media Queries */
 
-@media (min-width:1230px){
-    #js-init-sticky .container{
-        max-width:1300px;
+@media (min-width:1230px) {
+    #js-init-sticky .container {
+        max-width: 1300px;
     }
 }
 
-@media (min-width:1025px){
-    .mainSlider .slide .slide-content .tt-title-02{
-        font-size:34px;
+@media (min-width:1025px) {
+    .mainSlider .slide .slide-content .tt-title-02 {
+        font-size: 34px;
     }
+}
+
+/* Slider Text Overlay */
+.slide-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+.slide-content .container {
+    position: relative;
+    z-index: 2;
+}
+
+.slide-content .tt-title-01,
+.slide-content .tt-title-02 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    color: #ffffff !important;
+}
+
+/* PLC Green Color */
+.plc-green {
+    color: #28a745 !important;
+}
+
+/* Remove dark overlay from service images */
+.tt-bg-dark {
+    width: 100%;
+    height: 280px;
+    max-width: 100% !important;
+    background: none !important;
+    filter: none !important;
+    overflow: hidden;
+}
+
+.tt-bg-dark::before {
+    display: none !important;
+}
+
+/* Remove whitish overlay effects */
+.tt-box02 .tt-box02__img::before,
+.tt-box02 .tt-box02__img::after {
+    display: none !important;
+}
+
+.tt-box02__img::before {
+    display: none !important;
+}
+
+/* Service image hover zoom effect */
+.tt-box02 .tt-box02__img {
+    overflow: hidden;
+    border-radius: 8px;
+    background: none !important;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tt-box02 .tt-box02__img img {
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+    height: 350px;
+    object-fit: contain;
+    object-position: center;
+    opacity: 1 !important;
+    filter: none !important;
+    display: block;
+    margin: 0 auto;
+}
+
+.tt-box02:hover .tt-box02__img img {
+    transform: scale(1.05);
+}
+
+/* Adjust specific service images position */
+.tt-box02_wrapper .col-md-4:nth-child(6) .tt-box02__img img {
+    object-position: center top;
+    margin-top: -20px;
+}
+
+/* Statistics numbers and + sign in green */
+.elementor-counter-number,
+.elementor-counter-number-suffix {
+    color: #28a745 !important;
+}
+
+/* Reduce white space above testimonials and below partners */
+.elementor-element-14c197a {
+    margin-top: -40px !important;
+}
+
+.elementor-element-42ce384 {
+    margin-bottom: -40px !important;
+}
+
+/* Remove empty section white space */
+.elementor-element-091ab54 {
+    display: none !important;
+}
+
+.elementor-element-c594821 {
+    margin-bottom: -60px !important;
+}
+
+/* Fix for IT Solutions image coverage and position */
+.tt-slideinfo:nth-child(4) {
+    padding-right: 70px !important;
+}
+
+.tt-slideinfo:nth-child(3) {
+    padding-right: 0 !important;
+}
+
+.tt-slideinfo:nth-child(4) .tt-item__bg-img {
+    width: 150% !important;
+    left: -20% !important;
+    background-position: left center !important;
+}
+
+/* Change preloader bolt color to green (#28a745) */
+.loading-content img {
+    filter: brightness(0) saturate(100%) invert(48%) sepia(79%) saturate(541%) hue-rotate(86deg) brightness(97%) contrast(92%);
+}
+
+/* Fix for sticky header being overlapped by content */
+#js-init-sticky.fixed .tt-holder-wrapper {
+    z-index: 9999 !important;
+    background-color: #ffffff !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Footer hover effects */
+.footer-hover-green {
+    transition: color 0.3s ease;
+}
+
+.footer-hover-green:hover {
+    color: #28a745 !important;
+    cursor: pointer;
 }

@@ -1,0 +1,10 @@
+# System files
+.DS_Store
+*.log
+
+# IDE
+.vscode/
+
+# Environment
+.env
+.env.local

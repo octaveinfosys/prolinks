@@ -1,9 +1,4 @@
-<div id="loader-wrapper" class="loader-on">
-    <div class="custom-loader">
-        <img alt=""
-             src="../www.mantechintellisys.com/wp-content/uploads/2021/07/loader.png">
-    </div>
-</div>
+
 
 <nav class="panel-menu" id="mobile-menu">
     <ul>

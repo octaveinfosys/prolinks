@@ -3,8 +3,29 @@
     <link rel="icon" href="assets/logo.jpg" type="image/x-icon"/>
     <link rel="shortcut icon" href="assets/logo.jpg" type="image/x-icon"/>
 
+    <!-- Critical CSS for faster loading -->
+    <style>
+        img { 
+            max-width: 100%; 
+            height: auto; 
+            display: block;
+        }
+        .lazyload {
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        .lazyloaded {
+            opacity: 1;
+        }
+        /* Optimize slider images */
+        .mainSlider .img--holder {
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    </style>
 
-    <title>ManTech Intellisys - System Integrator &amp; Solution Providers for Building Automation</title>
+    <title>Prolink Computers</title>
     <meta name="description" content="Master System Integrator &amp; Integrated Technology Solution Provider in the field of Security, Safety, Intelligent Building Automation" />
     <link href="assets/css/custome.css" rel="stylesheet" type="text/css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1">
@@ -35,6 +56,6 @@
 </head>
 
 
-<a href="https://wa.me/919637094449?text=Hi" id="okapi-wasb-button" target="_blank">
+<a href="https://wa.me/918657460657?text=Hi" id="okapi-wasb-button" target="_blank">
     <img id="okapi-wasb-icon" src="wp-content/plugins/wa-sticky-button/assets/default.png">
 </a>
